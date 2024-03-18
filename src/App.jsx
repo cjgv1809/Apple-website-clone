@@ -4,6 +4,7 @@ import Highlights from "./components/Highlights";
 import Model from "./components/Model";
 import Features from "./components/Features";
 import Chip from "./components/Chip";
+import Footer from "./components/Footer";
 import * as Sentry from "@sentry/react";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Model />
       <Features />
       <Chip />
+      <Footer />
     </main>
   );
 }
