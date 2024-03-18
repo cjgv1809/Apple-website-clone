@@ -22,7 +22,7 @@ function Footer() {
 
         <div className="flex flex-col justify-between md:flex-row md:items-center">
           <p className="text-xs font-semibold text-gray">
-            Copright @ {currentYear} Apple Inc. All rights reserved.
+            Copyright @ {currentYear} Apple Inc. All rights reserved.
           </p>
           <div className="flex">
             {footerLinks.map((link, i) => (
